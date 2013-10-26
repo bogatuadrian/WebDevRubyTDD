@@ -1,5 +1,6 @@
 
 def compute_row(n)
+  return nil unless n.is_a? Integer
   return [] if n < 1
   return [1] if n == 1
 
